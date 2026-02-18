@@ -10,7 +10,7 @@ variable "github_token" {
 
 resource "aws_amplify_app" "hola_mundo" {
   name       = "hola-mundo-vite"
-  repository = "https://github.com/javiercl/vite-hola-mundo.git"
+ repository = "https://github.com/estelapaleoa-hub/HolaMundo.git"
   oauth_token = var.github_token
 
   build_spec = <<-EOT
